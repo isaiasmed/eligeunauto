@@ -40,3 +40,9 @@
 	font-size: 3rem;
 	line-height: 3.2rem;
 }
+.navbar-brand {
+	max-width:40%;
+}
+#menu-principal .nav-link i {
+	font-size: 1.8rem;
+}
