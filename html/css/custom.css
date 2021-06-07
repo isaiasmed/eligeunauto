@@ -16,6 +16,18 @@
 	left: 1%;
 	border-bottom: 2px solid red;
 }
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+	max-width: 1260px;
+}
+.btn {
+	border-radius: 0px;
+	padding-left: 1.8rem !important;
+	padding-right: 1.8rem !important;
+	font-size: 1.2rem;
+	box-shadow: 0px -1px 3px #000 inset;
+	border: none;
+	border-bottom: 0.3px solid #ec0000;
+}
 .slider-inicio{
 	height: 892px;
 	overflow: hidden;
@@ -34,7 +46,8 @@
 	color: #fff;
 }
 .slider-caption p {
-	font-size: 4.8rem;
+	font-size: 3.5rem;
+	font-weight: 200;
 }
 .slider-caption p.line2 {
 	font-size: 3rem;
@@ -66,6 +79,20 @@
 .patborder-b {
 	border: 1px solid #000;
 }
+.pat-black .ln-1,.pat-red .ln-1 {
+	width: 100%;
+	display: block;
+	text-align: left;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+.pat-black .ln-2,.pat-red .ln-2 {
+	width: 100%;
+	display: block;
+	text-align: left;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
 .bg-gray2 {
 	background: #f7f7f7;
 }
@@ -84,4 +111,124 @@
 	display: inline-block;
 	background-position: left center;
 	background-repeat: no-repeat;
+}
+.escribenos {
+	height: 444px;
+	display: block;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+	background-position: center center !important;
+	padding-top:63px;
+}
+.escribenos::after {
+	content: '';
+	background: #000000c9;
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	z-index: 2;
+	height: 100%;
+	top: 0;
+}
+.cuadror-l {
+	background: url('../assets/img/cuadro-rojo.png');
+	position: absolute;
+	left: 0;
+	top: -40px;
+	height: 137px;
+	width: 197px;
+	z-index: 3;
+}
+.cuadror-r {
+	background: url('../assets/img/cuadro-rojo.png');
+	position: absolute;
+	right: 0;
+	top: -40px;
+	height: 137px;
+	width: 197px;
+	z-index: 3;
+	transform: scaleX(-1);
+}
+.escribenos-info {
+	position: relative;
+	z-index: 3;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 860px;
+	width: 90%;
+}
+.escribenos-info .ln-1 {
+	font-size: 2.1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.escribenos-info .ln-2 {
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+}
+.rayita{
+	font-size:2.1rem;
+	position:relative;
+}
+.rayita::after {
+	position: relative;
+	background: url('../assets/img/rayita.png');
+	content: '';
+	height: 39px;
+	width: 100%;
+	display: inline-block;
+	background-repeat: no-repeat;
+	top: 0;
+	background-position: top center;
+	margin-top: 10px;
+}
+.card-index {
+	margin-top: 60px;
+}
+.card-title {
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.card-content {
+	color: #a0a0a0;
+	font-size: 1rem;
+	line-height: 1.1rem;
+	text-align: justify;
+	font-weight: 500;
+}
+.menui-f {
+	list-style: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menui-f a {
+	font-size: 0.7rem;
+	border-right: 1px solid rgba(255, 255, 255, 0.35);
+	padding-right: 1.3rem;
+	padding-left: 1.3rem;
+	text-align: center;
+	display: block;
+}
+.footer .navbar-social i {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 60px;
+	text-align: center;
+	line-height: 30px !important;
+}
+.footer-bottom {
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	font-size: 0.8rem;
+}
+.rayita.elige {
+	width: 270px;
+	height: 74.25px;
+}
+.rayita.elige:after {
+	background-position: left top;
+	margin: 0px !important;
+	padding: 0px !important;
 }
