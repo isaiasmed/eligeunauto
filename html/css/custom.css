@@ -98,12 +98,15 @@
 }
 .auto2 {
 	position: relative;
-	left: 220px;
+	width: 593px;
+	height: auto;
+	left: 189px;
 }
 .auto3 {
 	position: absolute;
-	left: 51px;
+	width: 348px;
 	top: 88px;
+	left: 20px;
 }
 .bg-pleca {
 	background: url('../assets/img/bg-left.jpg');
