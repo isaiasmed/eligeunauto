@@ -235,3 +235,29 @@
 	margin: 0px !important;
 	padding: 0px !important;
 }
+
+
+
+
+.banner-page {
+	height: 160px;
+	position: relative;
+}
+.banner-page::after {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	content: '';
+	background: rgba(0, 0, 0, 0.80);
+}
+.page-content {
+	min-height: 53.6vh;
+}
+.card.bg-gray {
+	background: #f4f4f4;
+	border: none;
+}
+.card-title {
+	border-left: 3px solid #f00;
+	margin-left: 0px !important;
+}
